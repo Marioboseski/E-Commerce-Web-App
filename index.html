@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header-class">
+    <h1>E-COMMERCE</h1>
+
+    <nav>
+      <ul class="nav-bar-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="products-content">
+    <section class="filter-products-section">
+      <section class="filter-boxes">
+        <h3>Products</h3>
+        <div class="selection-options">
+          <select>
+            <option value="">All Categories</option>
+            <option value="">Product1</option>
+            <option value="">Product2</option>
+            <option value="">Product13</option>
+            <option value="">Product4</option>
+          </select>
+
+          <label for="select">Sort by price
+            <select>
+              <option value="">Lowest to highest</option>
+              <option value="">Highest to lowest</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="products"></section>
+
+    </section>
+
+    <aside class="summary-section">
+
+      <div class="summary-headings">
+        <h2>E-Commerce</h2>
+        <h3>Cart</h3>
+      </div>
+
+      <section class="cart-content">
+        <p class="product-paragraph">Product</p>
+        <p>Quantity</p>
+        <p>Price</p>
+      </section>
+
+      <section class="added-products">
+      </section>
+
+      <div class="calculate-total">
+        <div class="total-price">
+          <p>Total: <span>0</span></p>
+        </div>
+        <button>Checkout</button>
+      </div>
+    </aside>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
